@@ -7,6 +7,7 @@ import Day from './Day';
 import { getDaysOfMonth } from '../utils/moment-helper';
 import moment from 'moment-jalali';
 import onClickOutside from 'react-onclickoutside';
+import { defaultStyles } from './DefaultStyles';
 
 // Load Persian localisation
 moment.loadPersian();
@@ -31,7 +32,7 @@ export class Calendar extends Component {
   };
 
   static defaultProps = {
-    styles: require('../styles/basic.css'),
+    styles: defaultStyles,
     containerProps: {}
   };
 

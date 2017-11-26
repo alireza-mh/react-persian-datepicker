@@ -28,9 +28,6 @@
   "bugs": {
     "url": "https://github.com/mohebifar/react-persian-datepicker/issues"
   },
-  "files": [
-    "lib"
-  ],
   "homepage": "https://github.com/mohebifar/react-persian-datepicker#readme",
   "devDependencies": {
     "babel": "^6.5.2",
